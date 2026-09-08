@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{   
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+img{
+    width: 100vw;
+    height: 100vh;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+gap:5px;
+}
+.side{
+  
+    width: 5%;
+    height: 100%;
+   position: absolute;
+    align-items: center;
+    left: 80vw;
+    gap:1vh;
+    display: flex;
+    flex-direction: column;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3vh;
+}
+.board{
+    position: absolute;
+    left: 25vw;
+    bottom: 12vh;
+      border:solid 5px rgba(0, 94, 255, 0.5);
+        width: 45vw;
+        height: 45vh;
+border-radius: 20px;
+background-color: black;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+.b{
+   
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right:48vw;
+    bottom: 60vh;
+    gap:1vh;
+}
+button{
+  width: 240px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(255, 0, 255, 0.5);
+    border:solid 1px rgba(255, 0, 255, 0.5);
+    box-shadow: 0 0 8px #f953c6, 0 0 20px rgba(249, 83, 198, 0.6);
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+}
+.win, .lose{
+     width: 240px;
+    
+      padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(255, 0, 255, 0.5);
+    border:solid 1px rgba(255, 0, 255, 0.5);
+    box-shadow: 0 0 8px #f953c6, 0 0 20px rgba(249, 83, 198, 0.6);
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+}
+.boxes{
+    width:75%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+.box{
+    width:22%;
+    height: 25%;
+      border:solid 3px rgba(0, 94, 255, 0.5);
+}
+.timer{
+    width:7%;
+    height:90%;
+    border:solid 3px rgba(0, 94, 255, 0.5);
+border-bottom-left-radius:30px ;
+border-bottom-right-radius: 30px;
+display: flex;
+align-items: flex-end;
+}
+.timerezer{
+background-color: #f953c6;
+border:0px;
+width: 100%;
+height: 100%;
+
+}

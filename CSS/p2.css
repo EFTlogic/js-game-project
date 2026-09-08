@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+     background-image: url("../IMG/back.jpg");
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.games{
+   min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1vw;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family:  "Segoe UI", Tahoma, sans-serif;
+    flex-grow: 1;
+    color: #fff;
+    text-align: center;
+}
+.p{
+      width: 22vw;
+    height: 28vh;
+    margin-top: 2vw;
+    background-position: center;
+  
+    background-repeat: no-repeat;
+    border-radius: 20px;
+background-size: cover;
+     border:solid 3px rgba(0, 94, 255, 0.5);
+    box-shadow: 0 0 8px #f953c6, 0 0 20px rgba(0, 94, 255, 0.5);
+}
+.pic1{
+    background-image: url("../IMG/IMG4.gif");
+}
+.pic2{
+    background-image: url("../IMG/zvzv.png");
+}
+.pic3{
+    background-image: url("../IMG/IMG1.gif");
+}
+.pic4{
+    background-image: url("../IMG/IMG2.gif");
+}
+.pic5{
+    background-image: url("../IMG/IMG5.gif");
+}
+.pic6{
+    background-image: url("../IMG/IMG6.gif");
+}
+.pic7{
+    background-image: url("../IMG/שון.gif");
+}
+.pic8{
+    background-image: url("../IMG/IMG8.gif");
+}
+
+.pic1:hover{
+background-image: url("../IMG/rr.png");
+}
+.pic3:hover{
+background-image: url("../IMG/rr.png");
+}.pic4:hover{
+background-image: url("../IMG/rr.png");
+}.pic5:hover{
+background-image: url("../IMG/rr.png");
+}.pic6:hover{
+background-image: url("../IMG/rr.png");
+}.pic7:hover{
+background-image: url("../IMG/rr.png");
+}.pic8:hover{
+background-image: url("../IMG/rr.png");
+}
