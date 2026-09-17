@@ -43,7 +43,7 @@ let id
        
 
 const goingBack = ()=>{
-    window.location.href = "../HTML/p2.html"
+    window.location.href = "../HTML/loby.html"
 }
 
 const finish = ()=>{

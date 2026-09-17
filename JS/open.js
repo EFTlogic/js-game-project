@@ -81,7 +81,7 @@ bm.style.gap = "5%"
             {
              localStorage.setItem(inputname.value,JSON.stringify(user))
              localStorage.setItem("activeUser",inputname.value)
-                window.location.href = "../HTML/p2.html"
+                window.location.href = "../HTML/loby.html"
 
             }
              else{
@@ -98,7 +98,7 @@ bm.style.gap = "5%"
             }
             else{
              localStorage.setItem("activeUser",inputname.value)
-                window.location.href = "../HTML/p2.html"
+                window.location.href = "../HTML/loby.html"
             }
         }
     })
